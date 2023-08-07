@@ -1,0 +1,36 @@
+:root {
+  --sizeCountryName: 150px;
+  --sizeCountryNumber: 108px;
+}
+.stats {
+  background-color: #eee;
+}
+
+.countries span{
+    display: inline-block;
+    height: 20px;
+    vertical-align: top;
+    margin-bottom: 4px;
+  }
+.countries .graph {
+width: calc(100% - var(--sizeCountryNumber) - var(--sizeCountryName));
+margin-right: 4px;
+}
+.graph .bar {
+background-color: orange;
+border-radius: 4px;
+}
+
+.btn-languages, .btn-population {
+  background-color: orange;
+  border-radius: 4px;
+  height: 2.3rem;
+  width: 8rem;
+  display: inline-block;
+}
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: large;
+  color: #222;
+}

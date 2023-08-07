@@ -1,0 +1,42 @@
+.country-element {
+    flex-basis: 31%;
+    border-radius:6px;
+    margin: 5px;
+    background-color: #fff;
+    padding-top: 1rem;
+}
+
+    .country-element:hover {
+        box-shadow: 0 0 5px #888;
+        /*todo: criar automacao para add web-kit**/
+        transform: scale(1.015);
+
+    }
+
+.country-element img {
+    box-shadow: 0 0 0.6rem 0.2rem #f1e1e1;
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.country-element section {
+    /* {paddingLeft: '1.5rem', paddingTop: '2rem', paddingBottom: '1.2rem'} */
+    padding: 2rem 0 1.2rem 1.5rem;
+    font-size: x-large;
+}
+
+.country-element h3 {
+    color: orange;
+    text-align: center;
+    margin-bottom: 0.6rem;
+}
+
+.country-element strong {
+    color: #616161;
+}
+.country-element p {
+    color: #747474;
+}

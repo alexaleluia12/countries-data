@@ -1,0 +1,22 @@
+
+main {
+    padding: 10px;
+    padding-bottom: 60px;
+    /* Height of the footer */
+    background-color: #eee;
+  }
+
+  ul {
+    margin-left: 15px;
+  }
+
+  ul li {
+    list-style: none;
+  }
+
+.main-wrapper {
+    padding: 10px;
+    margin: 2px auto;
+    display: flex;
+    flex-wrap: wrap;
+}

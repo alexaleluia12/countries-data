@@ -1,0 +1,17 @@
+header {
+    background-color: #f0f0f0;
+    color: #ffb100;
+ }
+
+header h2 {
+    color: #555;
+    font-size: 2.5rem;
+}
+header h1 {
+    font-size: 6rem;
+    font-weight: 600;
+}
+
+.header-wrapper {
+    text-align: center;
+}
